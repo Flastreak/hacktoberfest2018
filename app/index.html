@@ -46,7 +46,7 @@
     const client = stitch.Stitch.initializeDefaultAppClient('hacktoberfest2018-yxogw');
     const db = client.getServiceClient(stitch.RemoteMongoClient.factory, 'mongodb-atlas').db('hacktoberfest');
     const app = new Vue({
-    el:'#app',
+    el:'#app'
     data: {
         entries: []
     },
